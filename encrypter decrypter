@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<conio.h>
+ void main()
+ {
+     int i,j,k;
+     clrscr();
+     printf("Select the cipher for encryption and decryption");
+     printf("1.caesar cipher \n");
+     printf("2.vigenere cipher \n");
+     printf("Hill cipher \n");
+     scanf(%d,&i);
+     switch(i)
+     {
+        case 1:
+        casear();
+        break;
+         
+        case 2:
+        vigenere();
+        break;
+         
+        case 3:
+        hill();
+        break;
+     
+     }
+     
+     getch();
+            
+ }
